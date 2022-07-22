@@ -1,0 +1,262 @@
+@media (max-width: 94em) {
+    .slider-btn.prev {
+        left: 16rem;
+    }
+
+    .slider-btn.next {
+        right: 16rem;
+    }
+}
+
+@media (max-width: 92em) {
+    .footer-info-label,
+    .footer-info-text {
+        font-size: 2.2rem;
+    }
+
+    .nav-footer-text:link,
+    .nav-footer-text:visited {
+        font-size: 1.8rem;
+    }
+
+    .bottom-whitespace {
+        margin-bottom: 7.6rem;
+    }
+}
+
+@media (max-width: 79em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .bottom-whitespace {
+        margin-bottom: 4.8rem;
+    }
+}
+
+@media (max-width: 70em) {
+    .google-maps-location {
+        display: none;
+    }
+    .address-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .address-footer a {
+        display: block;
+    }
+
+    .nav-footer {
+        align-items: center;
+    }
+
+    .stone-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stone-cards-title {
+        font-size: 3.8rem;
+    }
+
+    .container-cards {
+        max-width: 115rem;
+    }
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .main-nav {
+        background-color: #555;
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .main-nav.nav-open {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: scale(1, 1);
+    }
+
+    .main-nav a {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 1.8rem 2.4rem;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-nav li {
+        color: #fff;
+        width: 100%;
+    }
+
+    .main-nav li:hover {
+        color: #333;
+        background-color: #eee;
+    }
+
+    .about-text {
+        font-size: 2.2rem;
+        margin-bottom: 7.6rem;
+    }
+}
+
+@media (max-width: 57em) {
+    html {
+        font-size: 50%;
+    }
+
+    .slider-btn.prev {
+        left: 10rem;
+    }
+
+    .slider-btn.next {
+        right: 10rem;
+    }
+
+    .slider {
+        height: 70vh;
+    }
+
+    /* .about-text {
+        margin-bottom: 6.4rem;
+    } */
+
+    .about-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 44em) {
+    .stone-card:nth-child(6) {
+        grid-column: span 1;
+    }
+
+    .stone-card:nth-child(5) {
+        grid-column: span 1;
+    }
+    .stone-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-cards {
+        padding-inline: 5rem;
+    }
+
+    .slider {
+        height: 60vh;
+    }
+
+    .brand-logo {
+        height: 7rem;
+    }
+
+    .main-footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .main-footer-info {
+        grid-column: 1 / -1;
+    }
+
+    .address-footer {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-footer {
+        gap: 1rem;
+    }
+
+    .about-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 35em) {
+    .slider {
+        height: 40vh;
+    }
+
+    .slider-btn {
+        padding: 1.2rem;
+    }
+    .slider-btn.prev {
+        left: 7rem;
+    }
+
+    .slider-btn.next {
+        right: 7rem;
+    }
+    .about-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 32em) {
+    .stone-cards-grid {
+        grid-template-columns: 1fr;
+        padding-inline: 2rem;
+    }
+
+    .main-footer {
+        padding: 3.2rem 1.6rem;
+    }
+
+    .slider-btn {
+        padding: 0.8rem;
+    }
+    .slider-btn.prev {
+        left: 5rem;
+    }
+
+    .slider-btn.next {
+        right: 5rem;
+    }
+
+    .brand-logo {
+        height: 6rem;
+    }
+
+    .about-square {
+        padding-inline: 1.6rem;
+    }
+
+    .about-text {
+        font-size: 1.6rem;
+    }
+
+    .about-title {
+        font-size: 2.2rem;
+    }
+}
