@@ -34,7 +34,20 @@
     }
 }
 
+@media (max-width: 76em) {
+    .footer-info-label,
+    .footer-info-text {
+        font-size: 2rem;
+    }
+
+    .google-maps-location {
+        width: 52rem;
+    }
+}
 @media (max-width: 70em) {
+    .com-start {
+        left: 6%;
+    }
     .google-maps-location {
         display: none;
     }
