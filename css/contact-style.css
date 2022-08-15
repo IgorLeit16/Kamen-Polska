@@ -1,0 +1,24 @@
+.main-content {
+    position: relative;
+}
+
+.mymaps-iframe {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: block;
+}
+
+.contact-square {
+    position: absolute;
+    background-color: #fff;
+    padding: 2.4rem;
+
+    top: 20rem;
+    left: 18rem;
+}
+
+.contact-square-text {
+    font-size: 2rem;
+    line-height: 2;
+    margin: 0;
+}

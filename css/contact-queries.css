@@ -1,0 +1,29 @@
+@media (max-width: 87em) {
+    .contact-square {
+        left: 9rem;
+        top: 14rem;
+    }
+}
+
+@media (max-width: 69em) {
+    .contact-square {
+        left: 6rem;
+        top: 10rem;
+    }
+}
+
+@media (max-width: 44em) {
+    .contact-square {
+        position: static;
+        border-top: 2px solid #aaa;
+    }
+}
+
+@media (max-width: 37em) {
+    .contact-square-text {
+        font-size: 1.8rem;
+    }
+    .mymaps-iframe {
+        height: 60rem;
+    }
+}
